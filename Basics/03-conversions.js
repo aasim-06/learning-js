@@ -1,5 +1,5 @@
 // let score = "2006aasim"
-let score = null
+// let score = null
 // let score = undefined
 // let score = true
 

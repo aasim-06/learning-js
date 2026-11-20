@@ -14,3 +14,13 @@ console.log(newAllHeroes) // it will merge the two arrays and return a new array
 
 const anotherArr =[1,2,3,4,[5,6,7,8],5,6,7,[1,2,[3,4]]]
 console.log(anotherArr.flat(Infinity))
+
+console.log(Array.isArray("aasim"))
+console.log(Array.from("aasim"))
+console.log(Array.from({name : "aasim"})) //intresting.
+
+let marks1 = 98
+let marks2 = 99
+let marks3 = 100
+const totalMarks = 297
+console.log(Array.of(marks1, marks2, marks3, totalMarks)) // it will return an array of the given elements.
